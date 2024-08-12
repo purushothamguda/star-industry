@@ -134,6 +134,10 @@ const Contact: React.FC = () => {
               width="600"
               height="450"
               loading="lazy"
+              title="Google Maps location of Star Industry, Sathupally"
+              allowFullScreen={false}
+              referrerPolicy="no-referrer-when-downgrade"
+              style={{ border: "0" }}
             ></iframe>
           </div>
         </div>

@@ -3,7 +3,6 @@ import Layout from "../components/Layout";
 import AboutSection from "../components/AboutSection";
 import FeaturedProductsSection from "../components/FeaturedProductsSection";
 import HeroSection from "../components/HeroSection";
-import TestimonialsSection from "../components/TestimonialsSection";
 
 const Home: React.FC = () => {
   return (
