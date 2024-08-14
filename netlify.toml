@@ -1,0 +1,11 @@
+[build]
+  publish = "build" # This is where Netlify will look for the production files
+  command = "CI=true npm run build" # The build command with CI enabled
+
+[build.environment]
+  NODE_ENV = "production"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
