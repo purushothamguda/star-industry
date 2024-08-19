@@ -31,18 +31,19 @@ const Footer: React.FC = () => {
             <i className="fab fa-facebook-f"></i>
           </a>
           <a
-            href="https://twitter.com"
+            href="https://x.com"
             target="_blank"
             rel="noopener noreferrer"
             style={{
-              color: "#1DA1F2", // Twitter blue color
               marginRight: "15px",
               fontSize: "24px",
               textDecoration: "none",
             }}
           >
-            <i className="fab fa-twitter"></i>
+            <i className="fa-brands fa-x-twitter"></i>
+            {/* Use the appropriate class for the X icon */}
           </a>
+
           <a
             href={`https://wa.me/${whatsappNumber}`}
             target="_blank"
